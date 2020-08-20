@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head th:replace="fragments :: head"></head>
+<<<<<<< HEAD
 <body class="container">
+=======
+<body>
+>>>>>>> 7086f8331ed4f41eb1b85d8cc9a08683d726c89b
 
 <header th:replace="fragments :: header"></header>
 
 <form method="post">
+<<<<<<< HEAD
     <div class="form-group">
         <label>Name
             <input th:field="${event.name}" class="form-control">
@@ -37,6 +42,10 @@
     <div class="form-group">
         <input type="submit" value="Create" class="btn btn-success">
     </div>
+=======
+    <input type="text" name="eventName">
+    <input type="submit" value="Create">
+>>>>>>> 7086f8331ed4f41eb1b85d8cc9a08683d726c89b
 </form>
 
 </body>

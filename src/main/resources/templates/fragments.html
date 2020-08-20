@@ -3,6 +3,7 @@
 <head th:fragment="head">
     <meta charset="UTF-8"/>
     <title>Coding Events</title>
+<<<<<<< HEAD
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -25,3 +26,20 @@
 
 </body>
 </html>
+=======
+    <link rel="stylesheet" th:href="@{/styles.css}">
+    <script th:src="@{/script.js}"></script>
+</head>
+<body>
+
+<nav th:fragment="header">
+    <h1 th:text="${title}">Coding Events</h1>
+    <ul>
+        <li><a href="/events">All Events</a></li>
+        <li><a href="/events/create">Create Event</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
+>>>>>>> 7086f8331ed4f41eb1b85d8cc9a08683d726c89b

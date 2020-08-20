@@ -1,6 +1,10 @@
 body {
+<<<<<<< HEAD
   font-size: 14px;
 }
 .error {
   color: red;
+=======
+  font-size: 18px;
+>>>>>>> 7086f8331ed4f41eb1b85d8cc9a08683d726c89b
 }
